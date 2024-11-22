@@ -10,7 +10,7 @@ The Link for the API documentation using Postman for the task is attached here f
 
 ## Render Deployment URL 
 
-[Render Deployment](https://receipesappzenclasstask.onrender.com)
+[Render Deployment](https://receipesappzenclasstask.onrender.com/api/v1/receipes)
 
 ## Postman Documentation URL
 [Postman Documentation URL:](https://documenter.getpostman.com/view/38692959/2sAYBSkYvH)
