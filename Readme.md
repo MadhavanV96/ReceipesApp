@@ -30,19 +30,16 @@ The Link for the API documentation using Postman for the task is attached here f
 
 ## Setting up Backend Application using NodeJS + ExpressJS + MongoDB
 
-    1. Create a new directory
-    2. 'npm init' to create package.json file.
-    3. 'index.js' -base file -> connect to the  Database
-    4. Installing Mongosh. for db connectivity.
-    5. Installing Express library using
-`    npm install express
-`    
-    6. Basic App Setup of Routes using Express  -> app.js
-    7. Route url -> app.get('/')
-    8. Installed Env package for saving Environment variables . 
-`    npm install dotenv
-`   
-    9. Along with this , we have used MongoDB for database and Postman for testing API's. 
+1. Create a new directory
+2. 'npm init' to create package.json file.
+3. 'index.js' -base file -> connect to the  Database
+4. Installing Mongosh. for db connectivity.
+5. Installing Express library using     `npm install express` 
+   
+6. Basic App Setup of Routes using Express  -> app.js
+7. Route url -> app.get('/')
+8. Installed Env package for saving Environment variables . `npm install exdotenv`  
+9. Along with this , we have used MongoDB for database and Postman for testing API's. 
     
 
 
