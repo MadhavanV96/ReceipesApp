@@ -36,7 +36,7 @@ The Link for the API documentation using Postman for the task is attached here f
     4. Installing Mongosh. for db connectivity.
     5. Installing Express library using
     ```javascript
-     > npm install express
+    npm install express
     ```
     6. Basic App Setup of Routes using Express  -> app.js
     7. Route url -> app.get('/')
