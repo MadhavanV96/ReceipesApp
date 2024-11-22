@@ -1,13 +1,16 @@
 const express=require('express');
+const receipeRouter = require('./routes/receipeRoute');
 
 
 //creating Express Application
 const app=express();
 
+//Add middleware to parse JSON
 
-app.get('/',(request,response)=>{
-response.json({message:'Hello World'});
-})
+app.use(express.json())
+
+
+app.use('/api/v1/receipes',receipeRouter);
 
 
 //Listen Request

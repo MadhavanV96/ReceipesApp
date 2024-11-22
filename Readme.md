@@ -1,10 +1,19 @@
 # Receipes App using Node.JS,Express.JS and Mongo DB
 
+
+
 ## Objective
 
 Developing a complete CRUD (Create, Read, Update, Delete) application for managing recipes using Node.js, Express.js, and Mongoose. The application follows the MVC pattern and includes comprehensive API documentation using Postman.
 
-The Link for the API documentation using Postman for the task is attached at the end of the document for your reference.
+The Link for the API documentation using Postman for the task is attached here for your reference.
+
+## Render Deployment URL 
+
+[Render Deployment](https://receipesappzenclasstask.onrender.com)
+
+## Postman Documentation URL
+[Postman Documentation URL:](https://documenter.getpostman.com/view/38692959/2sAYBSkYvH)
 
 ## Technologies Used
 
@@ -32,13 +41,14 @@ The Link for the API documentation using Postman for the task is attached at the
     6. Basic App Setup of Routes using Express  -> app.js
     7. Route url -> app.get('/')
     8. Installed Env package for saving Environment variables . ```javascript npm install dotenv ```
+    9. Along with this , we have used MongoDB for database and Postman for testing API's. 
     
 
 
 
 ## Functionalities
 
-  The following functionality should be achieved,
+  The following functionalities were achieved,
 
     a. createRecipe: Create a new recipe.
     b. getAllRecipes: Retrieve all recipes.
@@ -46,3 +56,10 @@ The Link for the API documentation using Postman for the task is attached at the
     d. updateRecipe: Update a recipe by ID.
     e. deleteRecipe: Delete a recipe by ID.
 
+## API Endpoints
+
+- `POST /api/v1/receipes` - Create a new recipe
+- `GET /api/v1/receipes` - Retrieve all recipes
+- `GET /api/v1/receipes/:id` - Retrieve a recipe by ID
+- `PUT /api/v1/receipes/:id` - Update a recipe by ID
+- `DELETE /api/v1/receipes/:id` - Delete a recipe by ID
